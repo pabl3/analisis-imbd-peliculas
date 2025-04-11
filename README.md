@@ -32,13 +32,6 @@ Este proyecto explora el top 1000 de películas según IMDb para descubrir patro
 - ¿Hay relación entre votos, ingresos y rating?
 - ¿Cuál fue la década más productiva?
 
-# Visualizaciones
-
-- Géneros más frecuentes (`generos_frecuentes.png`)
-- Rating vs Votos (`rating_vs_votos.png`)
-- Correlación entre ingresos, votos y rating (`correlacion_variables.png`)
-- Gráfico interactivo con Plotly
-
 # Análisis visual
 
 Durante el análisis exploratorio de los datos, se generaron varias visualizaciones para comprender mejor la información contenida en el dataset.
