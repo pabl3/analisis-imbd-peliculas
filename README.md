@@ -43,35 +43,20 @@ Este proyecto explora el top 1000 de películas según IMDb para descubrir patro
 
 Durante el análisis exploratorio de los datos, se generaron varias visualizaciones para comprender mejor la información contenida en el dataset.
 
-# Distribución de películas por año
+# Géneros más comunes
+![Géneros más comunes](images/most_common_genres_barplot.png)
 
-Este gráfico muestra la cantidad de películas producidas por año en el dataset.
+# Correlación entre variables
+Visualización de la correlación entre variables numéricas como ingresos (`gross`), votos y puntuación en IMDb.
+![Correlación entre variables](images/correlation_heatmap.png)
 
-![Películas por año](images/movies_per_year.png)
+# Relación entre votos y rating (IMDb)
+Un scatterplot que muestra cómo se relaciona la cantidad de votos con el rating.
+![Votos vs IMDb Rating](images/votes_vs_rating_scatterplot.png)
 
----
-
-# Géneros más frecuentes
-
-Visualización de los géneros más comunes entre las películas del dataset.
-
-![Géneros más frecuentes](images/most_common_genres.png)
-
----
-
-# Distribución por país
-
-Muestra los países con mayor cantidad de películas producidas en el dataset.
-
-![Películas por país](images/movies_by_country.png)
-
----
-
-# Mapa de calor de correlaciones
-
-Este heatmap permite ver la relación entre las variables numéricas: ingresos (gross), cantidad de votos y rating de IMDb.
-
-![Mapa de calor de correlaciones](images/correlation_heatmap.png)
+# Relación entre ingresos y rating
+Gráfico interactivo (Plotly) para visualizar cómo varían los ingresos según el rating.
+![Ingresos vs IMDb Rating](images/gross_vs_rating_plotly.png)
 
 
 #Conclusiones
